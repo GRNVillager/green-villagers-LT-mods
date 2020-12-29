@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<breast>
+	<race>GreenVillager_raccoon_dog</race>
+	
+	<transformationName><![CDATA[raccoon dog]]></transformationName>
+	
+	<coveringType>GreenVillager_raccoon_dog_fur</coveringType>
+	
+	<nippleType>GreenVillager_raccoon_dog_nipple</nippleType>
+	
+	<fluidType>GreenVillager_raccoon_dog_milk</fluidType>
+	
+
+	<names/>
+
+	<namesPlural/>
+	
+	<descriptors/>
+	
+	
+	<namesFlat/>
+	
+	<namesPluralFlat/>
+	
+
+	<descriptorsFlat/>
+	
+
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldRacoon(raccoon dog-like)], [npc.nipplesFullDescription], and when lactating, [npc.she] will produce [style.boldRacoon(raccoon dog milk)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		On each of [npc.her] [npc.breastSize] [npc.breasts], [npc.she] [npc.has] [npc.nipplesPerBreast] raccoon dog-like, [npc.nipplesFullDescription].
+	]]></bodyDescription>
+	
+	<crotchBoobsTransformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldHyena(raccoon dog-like)], [npc.crotchNipplesFullDescription], and when lactating, [npc.she] will produce [style.boldRacoon(raccoon dog milk)].
+	]]></crotchBoobsTransformationDescription>
+	
+	<crotchBoobsBodyDescription><![CDATA[
+		On each of [npc.her] [npc.crotchBoobSize] [npc.crotchBoobs], [npc.she] [npc.has] [npc.crotchNipplesPerBreast] raccoon dog-like, [npc.crotchNipplesFullDescription].
+	]]></crotchBoobsBodyDescription>
+	
+</breast>

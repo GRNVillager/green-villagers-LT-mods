@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<race>
+	<!-- Core definitions: -->
+	<racialBody>GreenVillager_raccoon_dog</racialBody>
+
+	<applyRaceChanges/>
+
+	<name><![CDATA[raccoon dog-morph]]></name>
+	<namePlural><![CDATA[raccoon dog-morph]]></namePlural>
+
+	<nameFeral>
+		<name legConfiguration="QUADRUPEDAL"><![CDATA[raccoon dog]]></name>
+	</nameFeral>
+	<nameFeralPlural>
+		<name legConfiguration="QUADRUPEDAL"><![CDATA[raccoon dog]]></name>
+	</nameFeralPlural>
+
+	<defaultTransformName><![CDATA[raccoon dog]]></defaultTransformName>
+
+	<colour>BASE_BROWN</colour>
+
+	<disposition>NEUTRAL</disposition>
+
+	<racialClass>MAMMAL</racialClass>
+
+	<feralPartsAvailable>true</feralPartsAvailable>
+
+	<ableToSelfTransform>false</ableToSelfTransform>
+
+	<flyingRace>false</flyingRace>
+
+	<!-- Combat: -->
+	<combatBehaviour>ATTACK</combatBehaviour>
+
+	<!-- Breeding: -->
+	<chanceForMaleOffspring>0.5</chanceForMaleOffspring>
+
+	<numberOfOffspringLow>2</numberOfOffspringLow>
+	<numberOfOffspringHigh>8</numberOfOffspringHigh>
+
+	<!-- Gameplay preferences: -->
+	<defaultFemininePreference>NORMAL</defaultFemininePreference>
+	<defaultMasculinePreference>NORMAL</defaultMasculinePreference>
+
+	<affectedByFurryPreference>true</affectedByFurryPreference>
+</race>

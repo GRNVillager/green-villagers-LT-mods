@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<penis>
+	
+	<race>GreenVillager_raccoon_dog</race>
+	
+	<transformationName><![CDATA[raccoon]]></transformationName>
+	
+	<coveringType>PENIS</coveringType>
+	
+	<testicleType>GreenVillager_raccoon_dog_testicle</testicleType>
+	
+	<additionalTransformationEffect/>
+	
+	<namesMasculine>
+		<name><![CDATA[raccoon dog-]]></name>
+	</namesMasculine>
+	<namesPluralMasculine>
+		<name><![CDATA[raccoon dog-]]></name>
+	</namesPluralMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[raccoon dog-]]></name>
+	</namesFeminine>
+	<namesPluralFeminine>
+		<name><![CDATA[raccoon dog-]]></name>
+	</namesPluralFeminine>
+	
+	<descriptors/>
+	
+	<defaultPenetrationModifiers>
+		<modifier>SHEATHED</modifier>
+		<modifier>TAPERED</modifier>
+	</defaultPenetrationModifiers>
+	
+	<transformationDescription><![CDATA[
+		Letting out an involuntary moan, [npc.name] [npc.verb(feel)] [npc.her] penis shifting into a new form, and [npc.sheIs] hit by a wave of overwhelming arousal as a thick sheath suddenly grows around the base of [npc.her] shaft. As [npc.she] [npc.verb(pant)] and [npc.verb(gasp)] for air, the tip of [npc.her] cock narrows down as it tapers into its new form.
+		<br/>[npc.She] now [npc.has] a [style.boldRacoon(raccoon dog-like penis)], [npc.materialDescriptor] [npc.penisFullDescription(true)].
+		<br/>[npc.She] [npc.has] [style.boldRacoon([npc.ballsCount]#IF(npc.isInternalTesticles()) internal#ENDIF balls)], [npc.materialDescriptor] [npc.ballsFullDescription(true)], which produce [npc.cumColour(true)] [style.boldRacoon(raccoon dog cum)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] [npc.a_cockGirth], [npc.cockLengthValue] raccoon dog cock, which is [npc.materialCompositionDescriptor] [npc.cockFullDescription(true)].
+	]]></bodyDescription>
+	
+</penis>

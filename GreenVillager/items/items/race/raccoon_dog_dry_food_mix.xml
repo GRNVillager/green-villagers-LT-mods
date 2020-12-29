@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>250</value> 
+		<determiner><![CDATA[a bag of]]></determiner>
+		<name><![CDATA[Dried Food]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Bags of dried food]]></namePlural>
+		<description><![CDATA[A set of small brown bags. Each bags either contains dried meats, dried fruits and nuts.]]></description> 
+		
+		<useDescriptor>eat</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>RARE</rarity> 
+
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/GreenVillager/race/raccoon_dog/subspecies/raccoondogicon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="70">raccoon_dog_dry_food_mix.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>CLOTHING_BROWN</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<potionDescriptor><![CDATA[raccoon dog]]></potionDescriptor>
+		<associatedRace>GreenVillager_raccoon_dog</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 15% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/15)]
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+		<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(remove)] the knot that ties the bags and [npc.verb(grab)] a piece. Unable to resist the urge, [npc.she] [npc.verb(start)] shoving pieces into [npc.her] mouth until the bags has been emptied.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(remove)] the knot that ties the bags and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to ogle the varied assortment of dried cuts . Unable to resist the anticipation, [npc2.she] [npc2.verb(start)] shoving pieces into [npc2.her] mouth until the bags has been emptied.
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

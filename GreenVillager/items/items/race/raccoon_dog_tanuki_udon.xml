@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>250</value> 
+		<determiner><![CDATA[a bowl of]]></determiner>
+		<name><![CDATA[Tanuki Udon]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Tanuki Udons]]></namePlural>
+		<description><![CDATA[It can be severed hot or cold depending on the time of year. By the looks of it it's vegetarian friendly.]]></description> 
+		
+		<useDescriptor>eat</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>RARE</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/GreenVillager/race/raccoon_dog/subspecies/raccoondogicon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="90">raccoon_dog_tanuki_udon.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>CLOTHING_BROWN</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<potionDescriptor><![CDATA[Tanuki]]></potionDescriptor>
+		<associatedRace>GreenVillager_raccoon_dog</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 10% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/10)]
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(grabs)] the bowl and with their other free hand [npc.verb(grab)] a piece. Unable to resist the urge, [npc.she] [npc.verb(start)] shoving pieces into [npc.her] mouth until [npc.she] decides to [npc.verb(poor)] the rest of the content into [npc.her] mouth.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(grabs)] and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to ogle the varied dish . Unable to resist the anticipation, [npc2.she] [npc2.verb(start)] shoving pieces into [npc2.her] mouth until the bowl is licked clean of scraps.
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

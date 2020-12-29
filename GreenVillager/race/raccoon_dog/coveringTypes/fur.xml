@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coveringType>
+	<category>MAIN_FUR</category>
+
+	<determiner><![CDATA[a layer of]]></determiner>
+
+	<name><![CDATA[fur]]></name>
+
+	<namePlural pluralByDefault="false"><![CDATA[fur]]></namePlural>
+
+	<naturalCoveringModifiers>
+		<modifier>SMOOTH</modifier>
+		<modifier>SILKEN</modifier>
+		<modifier>SHAGGY</modifier>
+		<modifier>COARSE</modifier>
+	</naturalCoveringModifiers>
+
+	<extraCoveringModifiers>
+	</extraCoveringModifiers>
+
+	<naturalPatterns>
+		<pattern weighting="1">MARKED</pattern>
+		<pattern weighting="1">MOTTLED</pattern>
+		<pattern weighting="1">OMBRE</pattern>
+	</naturalPatterns>
+
+	<extraPatterns/>
+
+	<naturalColoursPrimary>
+		<colour>COVERING_GREY</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_BROWN_DARK</colour>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_WHITE</colour>
+	</naturalColoursPrimary>
+	<naturalColoursSecondary>
+		<colour>COVERING_BLACK</colour>
+		<colour>COVERING_BROWN_DARK</colour>
+	</naturalColoursSecondary>
+	<extraColoursSecondary values="allCoveringColours"/>
+</coveringType>

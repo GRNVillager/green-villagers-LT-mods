@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testicle>
+	<race>GreenVillager_raccoon_dog</race>
+	
+	<coveringType>GreenVillager_raccoon_dog_fur</coveringType>
+	
+	<fluidType>GreenVillager_raccoon_dog_cum</fluidType>
+	
+	<internal>false</internal>
+	
+	<names/>
+	
+	<namesPlural/>
+	
+	<descriptors/>
+	
+</testicle>

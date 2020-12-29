@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<authorTag><![CDATA[On one of the side of the package it reads 'Look for the Green Villager']]></authorTag>
+		
+		<value>500</value> 
+		<determiner><![CDATA[severing]]></determiner>
+		<name><![CDATA[Baked Onigiri]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[servings]]></namePlural>
+		<description><![CDATA[A nicely wrapped onigiri.
+		#IF(!game.isSillyModeEnabled())
+		 Some one drew an image of a brown chubby raccoon dog-boy holding out what you think is an onigiri.
+		#ELSE
+		 There's a drawing depicting a tan furred burly raccoon dog-boy eating an onigiri. On top of his head it reads 'Ahh, so filling! Hahaha!".
+		#ENDIF
+		]]></description> 
+		
+		<useDescriptor>eat</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>EPIC</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/GreenVillager/race/raccoon_dog/subspecies/raccoondogicon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="90">raccoon_dog_baked_onigiri.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>COVERING_BROWN</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<potionDescriptor><![CDATA[Tanuki Yokai]]></potionDescriptor>
+		<associatedRace>GreenVillager_raccoon_dog</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 20% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+			<line><![CDATA[Increases body size]]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/20)]
+			
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(start)] to feel heavier...
+			</p>
+			#IF (npc.getBodySize() < 3)
+				[#npc.incrementBodySize(1)]
+			#ENDIF
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(remove)] the glass cover and [npc.verb(savor)] the scent of the bread and its sugar frosting. Unable to resist the delicious looking confectionery inside, [npc.she] [npc.verb(start)] shoving pieces into [npc.her] mouth until the entire plate has been emptied.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(remove)] glass cover from the plate and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to savor the scent of the bread and its sugar frosting. Unable to resist the delicious-looking confectionery inside, [npc2.she] [npc2.verb(start)] shoving pieces into [npc2.her] mouth until the entire plate has been emptied.
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

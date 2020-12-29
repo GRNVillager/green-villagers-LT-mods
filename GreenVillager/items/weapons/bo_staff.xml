@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<weapon>
+	<coreAttributes>
+
+		<value>300</value> 
+		
+
+		<melee>true</melee>
+		
+		<twoHanded>true</twoHanded>
+		
+		<determiner><![CDATA[a]]></determiner>
+		
+		<name appendDamageName="true"><![CDATA[Bo Staff]]></name> 
+		
+		<namePlural pluralByDefault="false"><![CDATA[Bo Staffs]]></namePlural> 
+		
+		<description><![CDATA[A large sturdy farming tool turned defensive weapon, it's finely crafted to withstand lots of punishment]]></description> 
+		
+		<attackDescriptor>stab</attackDescriptor>
+		
+		<attackTooltipDescription><![CDATA[Strike out with your Bo Staff at [npc2.name].]]></attackTooltipDescription>
+		
+		<rarity>EPIC</rarity> 
+		
+		<weaponSet/> 
+		
+		<equipText><![CDATA[[npc.Name] [npc.verb(grab)] the staff, readying it for use in combat.]]></equipText>
+		
+		<unequipText><![CDATA[[npc.Name] [npc.verb(put)] the staff away.]]></unequipText>
+		
+		<imageName>bo_staff.svg</imageName> 
+		
+		<imageEquippedName>bo_staff.svg</imageEquippedName>
+		
+		<physicalResistance>10</physicalResistance> 
+
+		<damage>20</damage>
+		<arcaneCost>0</arcaneCost> 
+		
+		<damageVariance>LOW</damageVariance> 
+		
+		<availableDamageTypes>
+			<damageType>PHYSICAL</damageType>
+			<damageType>ICE</damageType>
+			<damageType>FIRE</damageType>
+			<damageType>POISON</damageType>
+		</availableDamageTypes>
+		
+		<spells/>
+		
+		<combatMoves/>
+		
+		<enchantmentLimit>5</enchantmentLimit>
+		
+		<effects> 
+              <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="CRITICAL_CHANCE" timer="0"/>
+              <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="CRITICAL_CHANCE" timer="0"/>
+			  <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="RESISTANCE_WEAPON" timer="0"/>
+              <effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_BOOST" primaryModifier="CLOTHING_ATTRIBUTE" secondaryModifier="RESISTANCE_PHYSICAL" timer="0"/>
+		</effects>
+
+		<extraEffects/>
+		
+		<onHitEffect/>
+
+		<onCriticalHitEffect/>
+
+		<primaryColours recolouringAllowed="true" values="ALL_WITH_METALS"/>
+		<secondaryColours values="ALL_WITH_METALS"/>
+		
+		<itemTags> 
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+			<tag>SUBMISSION_TUNNEL_SPAWN</tag>
+		</itemTags>
+		
+	</coreAttributes>
+
+	<hitDescriptions>
+		<hitText><![CDATA[
+		Thrusting out with [npc.her] staff, [npc.name] [npc.verb(manage)] to stab [npc2.name] in the chest; [npc2.name] gets knock back!
+		]]></hitText>
+		<hitText><![CDATA[
+		Striking out at [npc2.name] with [npc.her] staff, [npc.name] [npc.verb(manage)] to strike [npc2.her] [npc2.arm] with the staff, [npc2.name] loses a bit of momentum!
+		]]></hitText>
+		<hitText><![CDATA[
+		With a quick step forwards, [npc.name] [npc.verb(lunge)] out at [npc2.name] with [npc.her] staff, striking on [npc2.her] shoulder and causing [npc2.herHim] to lose some balance!
+		]]></hitText>
+		
+		<criticalHitText><![CDATA[
+		Expertly sidestepping around [npc2.namePos] attempt to block [npc.her] attack, [npc.name] [npc.verb(deal)] a devastating strike with [npc.her] staff!
+		]]></criticalHitText>
+	</hitDescriptions>
+
+	<missDescriptions>
+		<missText><![CDATA[
+		Thrusting out with [npc.her] Demon's Dagger, [npc.name] [npc.verb(attempt)] to stab [npc2.name] in the chest, but [npc.verb(end)] up missing [npc2.herHim]!
+		]]></missText>
+		<missText><![CDATA[
+		Striking out at [npc2.name] with [npc.her] Demon's Dagger, [npc.name] [npc.verb(let)] out a frustrated cry as [npc.she] [npc.verb(miss)] [npc.her] target!
+		]]></missText>
+		<missText><![CDATA[
+		With a quick step forwards, [npc.name] [npc.verb(lunge)] out at [npc2.name] with [npc.her] Demon's Dagger, but [npc.she] [npc.verb(miss)] [npc.her] target!
+		]]></missText>
+	</missDescriptions>
+	
+</weapon>

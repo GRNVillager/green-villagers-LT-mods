@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<authorTag><![CDATA[Underneath the gourd it reads 'Look for the Green Villager'.]]></authorTag>
+		
+		<value>250</value> 
+		<determiner><![CDATA[a bottle of]]></determiner>
+		<name><![CDATA[Yellow Tea]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[a set of]]></namePlural>
+		<description><![CDATA[A dried gourd containing oxidized tea.
+		#IF(!game.isSillyModeEnabled())
+		 There a drawn image of a naked raccoon dog-girl resting on her leg and drinking what you assume is tea.
+		#ELSE
+		 There's a drawing depicting two raccoon dog-boys. An average looking doctor, the other appearers burly built and carrying a dangerous heavy weapon. Above the burly one, a speech bubble reads "Пришло время команды, доктор!", which you assume is some kind of catchphrase.
+		#ENDIF
+		]]></description> 
+		
+		<useDescriptor>drink</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>UNCOMMON</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="-10" imageSize="90">raccoon_dog_yellow_tea.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>ATTRIBUTE_ARCANE</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<enchantmentItemTypeId>POTION</enchantmentItemTypeId>
+		<enchantmentEffectId>ATTRIBUTE_ARCANE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 15% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+			<line><![CDATA[[style.boldGood(Restores)] 15% [style.boldMana([#ATTRIBUTE_MANA_MAXIMUM.getName()])]]]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/15)]
+			[##npc.incrementMana(npc.getAttributeValue(ATTRIBUTE_MANA_MAXIMUM)/15)]
+		
+			<p style='margin-bottom:0; padding-bottom:0;'>
+			A powerful wave of arcane energy washes over [npc.name]...
+			</p>
+		
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>ATTRIBUTE_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		After first removing the cork, [npc.name] [npc.verb(bring)] the gourd of tea up to [npc.her] [npc.mouth]. A very faint smell of leafs rises from the opening, and as [npc.she] [npc.verb(tilt)] [npc.her] head back and [npc.verb(start)] drinking the liquid, a tingling warmth begins growing in the core of [npc.her] body.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		After first removing the cork, [npc.name] [npc.verb(bring)] the gourd of tea up to [npc2.namePos] waiting [npc2.lips]. A very faint smell of leafs rises from the opening, and as [npc2.she] [npc2.verb(tilt)] [npc2.her] head back and [npc2.verb(start)] drinking the liquid, a tingling warmth begins growing in the core of [npc2.her] body.
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

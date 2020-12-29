@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ear>
+	<race>GreenVillager_raccoon_dog</race>
+	
+	<transformationName><![CDATA[raccoon dog]]></transformationName>
+	
+	<coveringType>GreenVillager_raccoon_dog_fur</coveringType>
+	
+	<tags/>
+	<name><![CDATA[ear]]></name>
+	<namePlural><![CDATA[ears]]></namePlural>
+	
+	<descriptorsMasculine>
+		<descriptor>furry</descriptor>
+		<descriptor>raccoon dog-like</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>raccoon dog-like</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		They quickly begin to grow larger and shift to sit higher up on [npc.her] head than a normal pair of human ears would.
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+		 A layer of [npc.earFullDescriptionColour] quickly grows to cover them,
+		#ELSE
+		 Just like the rest of [npc.her] body, they're made out of [npc.earFullDescription],
+		#ENDIF
+		 and as the transformation finishes, [npc.she] experimentally [npc.verb(twitch)] [npc.her] new raccoon dog-like ears back and forth.
+		<br/>[npc.Name] now [npc.has] [style.boldRacoon(large, raccoon dog-like ears)], which are [npc.materialCompositionDescriptor] [npc.earFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] a pair of upright,#IF(npc.isPiercedEar()) pierced,#ENDIF raccoon dog-like ears, which are positioned high up on [npc.her] head and are [npc.materialCompositionDescriptor] [npc.earFullDescription(true)].
+	]]></bodyDescription>
+	
+</ear>

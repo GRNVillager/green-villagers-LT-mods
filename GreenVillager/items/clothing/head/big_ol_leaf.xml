@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<clothing>
+	<coreAttributes>
+		<value>5</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[Big ol' leaf]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Big Leafs]]></namePlural>
+		<description><![CDATA[It's a big leaf, it just feels right to place on top of your head.]]></description>
+		<physicalResistance>0</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<slot>HEAD</slot>
+		<rarity>COMMON</rarity>
+		<clothingSet/>
+		<imageName>big_ol_leaf.svg</imageName>
+		<imageEquippedName/>
+		<enchantmentLimit/>
+		<effects/>
+		
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>HEAD</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts/>
+				<clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+		
+		<incompatibleSlots/>
+		
+		<primaryColours recolouringAllowed="true" values="ALL_WITH_METALS"/>
+		<secondaryColours values="ALL_WITH_METALS"/>
+		
+	
+		<itemTags> 
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAttributes>
+
+  <replacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(place)] leaf onto [npc.her] head.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(place)] leaf onto [npc2.namePos] head.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] roughly [npc.verb(push)] leaf onto [npc2.namePos] head.]]>
+    </otherRough>
+  </replacementText>
+
+  <displacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(take)] off [npc.her] leaf.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(take)] off [npc2.namePos] leaf.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(snatch)] off [npc2.namePos] leaf.]]>
+    </otherRough>
+  </displacementText>
+  
+</clothing>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>GreenVillager_raccoon_dog</race>
+	
+	<transformationName><![CDATA[raccoon dog]]></transformationName>
+	
+	<baseFluidType>MILK</baseFluidType>
+	
+	<flavour>MILK</flavour>
+	
+	<namesMasculine/>
+	
+	<namesFeminine/>
+	
+	<descriptorsMasculine>
+		<name><![CDATA[raccoon dog]]></name>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<name><![CDATA[raccoon dog]]></name>
+	</descriptorsFeminine>
+	
+	<defaultFluidModifiers/>
+	
+</fluid>
