@@ -1,0 +1,8 @@
+1/31/2021
+  add a changelog.
+  added a new directory for weapons. Meaning users who download from the initial release need to delete the bo_staff.SVG and bo_staff.XML files, or else the game may crash.
+  Updated bo staff XML and SVG files. 
+  Added a new weapon a Blowpipe. It's a slightly cheaper and weaker alternative to the shortbow.
+  
+12/29/2020
+  Initial release
