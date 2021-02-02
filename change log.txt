@@ -1,6 +1,10 @@
+2/1/2021
+Change all reference of Blowpipe to Blow gun.
+Reworked blowgun.svg
+
 1/31/2021
-  add a changelog.
-  added a new directory for weapons. Meaning users who download from the initial release need to delete the bo_staff.SVG and bo_staff.XML files, or else the game may crash.
+  Aded a changelog.
+  Added a new directory for weapons. Meaning users who download from the initial release need to delete the bo_staff.SVG and bo_staff.XML files, or else the game may crash.
   Updated bo staff XML and SVG files. 
   Added a new weapon a Blowpipe. It's a slightly cheaper and weaker alternative to the shortbow.
   
