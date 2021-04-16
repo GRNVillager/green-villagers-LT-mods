@@ -4,7 +4,7 @@
 		<authorTag><![CDATA[On one of the side of the package it reads 'Look for the Green Villager']]></authorTag>
 		
 		<value>500</value> 
-		<determiner><![CDATA[severing]]></determiner>
+		<determiner><![CDATA[A severing of]]></determiner>
 		<name><![CDATA[Baked Onigiri]]></name>
 		<namePlural pluralByDefault="false"><![CDATA[servings]]></namePlural>
 		<description><![CDATA[A nicely wrapped onigiri.
@@ -25,7 +25,7 @@
 		<rarity>EPIC</rarity> 
 		
 		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
-		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/GreenVillager/race/raccoon_dog/subspecies/raccoondogicon.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/GreenVillager/race/raccoon_dog/subspecies/tanukiyokaiicon.svg</imageName>
 		<imageName zLayer="2" imageRotation="0" imageSize="90">raccoon_dog_baked_onigiri.svg</imageName>
 		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
 		

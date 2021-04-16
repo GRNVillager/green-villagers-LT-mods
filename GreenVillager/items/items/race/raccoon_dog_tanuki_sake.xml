@@ -4,12 +4,12 @@
 		<authorTag><![CDATA[Underneath the gourd it reads 'Look for the Green Villager'.]]></authorTag>
 		
 		<value>500</value> 
-		<determiner><![CDATA[a bottle of]]></determiner>
+		<determiner><![CDATA[a bottle of ]]></determiner>
 		<name><![CDATA[Sake]]></name>
-		<namePlural pluralByDefault="false"><![CDATA[a set of]]></namePlural>
-		<description><![CDATA[A dried gourd containing shake.
+		<namePlural pluralByDefault="false"><![CDATA[Bottles of Shake]]></namePlural>
+		<description><![CDATA[A thick bottle containing shake.
 		#IF(!game.isSillyModeEnabled())
-		 There a Number eight that is taped on the gourd, at least you think that it's an eight.
+		 There a Number eight that is written on the bottle, at least you think that it's an eight.
 		#ELSE
 		 There's a drawing depicting a dark furred raccoon dog-boy with an eye patch. He's carrying large crate of shake on one hand and the other hand waving a sake. He looks like he's howling.
 		#ENDIF
@@ -60,10 +60,10 @@
 
 	<useDescriptions>
 		<selfUse><![CDATA[
-		After first removing the cork, [npc.name] [npc.verb(bring)] the gourd of Sake up to [npc.her] [npc.mouth]. An extremely potent smell of alcohol rises from the opening, and as [npc.she] [npc.verb(tilt)] [npc.her] head back and [npc.verb(start)] drinking the beverage, a tingling warmth begins growing in the core of [npc.her] body. Only happy thoughts is going thorough [npc.her] head. 
+		After first removing the cork, [npc.name] [npc.verb(bring)] the Sake up to [npc.her] [npc.mouth]. An extremely potent smell of alcohol rises from the opening, and as [npc.she] [npc.verb(tilt)] [npc.her] head back and [npc.verb(start)] drinking the beverage, a tingling warmth begins growing in the core of [npc.her] body. Only happy thoughts is going thorough [npc.her] head. 
 		]]></selfUse>
 		<otherUse><![CDATA[
-		After first removing the cork, [npc.name] [npc.verb(bring)] the gourd of Sake up to [npc2.namePos] waiting [npc2.lips]. An extremely potent smell of alcohol rises from the opening, and as [npc2.she] [npc2.verb(tilt)] [npc2.her] head back and [npc2.verb(start)] drinking the beverage, a tingling warmth begins growing in the core of [npc2.her] body. [npc2.namePos] just blankly smiles.
+		After first removing the cork, [npc.name] [npc.verb(bring)] the bottle up to [npc2.namePos] waiting [npc2.lips]. An extremely potent smell of alcohol rises from the opening, and as [npc2.she] [npc2.verb(tilt)] [npc2.her] head back and [npc2.verb(start)] drinking the beverage, a tingling warmth begins growing in the core of [npc2.her] body. [npc2.namePos] just blankly smiles.
 		]]></otherUse>
 	</useDescriptions>
 

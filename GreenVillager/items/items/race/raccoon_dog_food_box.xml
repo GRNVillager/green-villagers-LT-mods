@@ -2,10 +2,10 @@
 <item>
 	<coreAttributes>
 		<value>250</value> 
-		<determiner><![CDATA[a bag of]]></determiner>
-		<name><![CDATA[Dried Food]]></name>
-		<namePlural pluralByDefault="true"><![CDATA[Bags of dried food]]></namePlural>
-		<description><![CDATA[A set of small brown bags. Each bags either contains dried meats, dried fruits and nuts.<br/>[style.italicsMinorGood(This item is deprecated, only severing for legacy purpose for older version "Food Box" supersede this.)]]]></description> 
+		<determiner><![CDATA[a ]]></determiner>
+		<name><![CDATA[Food Box]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Boxes of Food]]></namePlural>
+		<description><![CDATA[This moderately sized container has a trio of meat bun, a cup of rice, and a small bowl of fruits. The buns and rice are still relatively hot, and the fruits appears to be fresh.]]></description> 
 		
 		<useDescriptor>eat</useDescriptor>
 		
@@ -18,7 +18,7 @@
 
 		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
 		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/GreenVillager/race/raccoon_dog/subspecies/raccoondogicon.svg</imageName>
-		<imageName zLayer="2" imageRotation="0" imageSize="70">raccoon_dog_dry_food_mix.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="70">raccoon_dog_food_box.svg</imageName>
 		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
 		
 		<colourPrimary>CLOTHING_BROWN</colourPrimary>
@@ -46,10 +46,10 @@
 
 		<useDescriptions>
 		<selfUse><![CDATA[
-		[npc.Name] [npc.verb(remove)] the knot that ties the bags and [npc.verb(grab)] a piece. Unable to resist the urge, [npc.she] [npc.verb(start)] shoving pieces into [npc.her] mouth until the bags has been emptied.
+		[npc.Name] [npc.verb(remove)] covers from the box [npc.verb(grab)] a bun. Unable to resist the urge, [npc.she] [npc.verb(start)] shoving pieces into [npc.her] mouth until there is nothing but scraps.
 		]]></selfUse>
 		<otherUse><![CDATA[
-		[npc.Name] [npc.verb(remove)] the knot that ties the bags and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to ogle the varied assortment of dried cuts . Unable to resist the anticipation, [npc2.she] [npc2.verb(start)] shoving pieces into [npc2.her] mouth until the bags has been emptied.
+		[npc.Name] [npc.verb(remove)] the top from the box and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.her] to ogle the small assortments . Unable to resist the anticipation, [npc2.she] [npc2.verb(start)] shoving pieces into [npc2.her] mouth until the bags the containers are licked clean.
 		]]></otherUse>
 	</useDescriptions>
 
