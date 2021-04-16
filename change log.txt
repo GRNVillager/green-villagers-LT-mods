@@ -1,6 +1,14 @@
+4/15/2021
+  Blow Gun can now use the LUST damgage type.
+  Bo Staff can now be found in Vicky's shop inventory.
+  Redesigned Sake item.
+  Reduced files sizes of SVGs
+  Replaced "Bags of Dried food". with "Food Box"(old item is still in the game you should proably delete any traces in your safe file should this item ever get removed)
+  Some grammer corrected.
+
 2/1/2021
-Change all reference of Blowpipe to Blow gun.
-Reworked blowgun.svg
+  Change all reference of Blowpipe to Blow gun.
+  Reworked blowgun.svg
 
 1/31/2021
   Aded a changelog.
