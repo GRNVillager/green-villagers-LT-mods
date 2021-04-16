@@ -4,6 +4,7 @@
   Redesigned Sake item.
   Reduced files sizes of SVGs
   Replaced "Bags of Dried food". with "Food Box"(old item is still in the game you should proably delete any traces in your safe file should this item ever get removed)
+  Reworked subspecies generation and requirements.
   Some grammer corrected.
 
 2/1/2021
