@@ -12,7 +12,7 @@
 
 	<attributeItemId>GreenVillager_race_raccoon_dog_yellow_tea</attributeItemId>
 
-	<transformativeItemId>GreenVillager_race_raccoon_dog_dry_food_mix</transformativeItemId>
+	<transformativeItemId>GreenVillager_race_raccoon_dog_food_box</transformativeItemId>
 
 	<subspeciesOverridePriority>0</subspeciesOverridePriority>
 
@@ -23,8 +23,6 @@
 	<aquatic>false</aquatic>
 
 	<applySubspeciesChanges><![CDATA[
-
-	[#targetedBody.getCovering(BODY_COVERING_TYPE_GreenVillager_raccoon_dog_fur, true).setPattern(COVERING_PATTERN_MOTTLED)]
 
 	[#targetedBody.getTail().setType(null, TAIL_TYPE_GreenVillager_raccoon_dog_tail)]
 	

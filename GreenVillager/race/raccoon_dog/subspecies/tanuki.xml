@@ -30,7 +30,7 @@
 	
 	<subspeciesWeighting><![CDATA[
 		#IF(targetedRace==RACE_GreenVillager_raccoon_dog)
-			#IF(targetedBody.getCovering(BODY_COVERING_TYPE_GreenVillager_raccoon_dog_fur, true).getPattern()==COVERING_PATTERN_MARKED)
+			#IF(targetedBody.getTail().getType()==TAIL_TYPE_GreenVillager_raccoon_dog_round_tail)
 				100
 			#ELSE
 				0
