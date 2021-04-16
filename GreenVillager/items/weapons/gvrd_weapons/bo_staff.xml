@@ -72,6 +72,7 @@
 		<itemTags> 
 			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
 			<tag>SUBMISSION_TUNNEL_SPAWN</tag>
+			<tag>SOLD_BY_VICKY</tag>
 		</itemTags>
 		
 	</coreAttributes>

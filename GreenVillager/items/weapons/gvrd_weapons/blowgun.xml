@@ -5,7 +5,7 @@
 		<melee>false</melee>
 		<twoHanded>true</twoHanded>
 		<determiner><![CDATA[an]]></determiner>
-		<name><![CDATA[arcane Blow gun]]></name>
+		<name><![CDATA[Arcane Blow Gun]]></name>
 		<namePlural pluralByDefault="false"><![CDATA[arcane Blow guns]]></namePlural>
 		<description><![CDATA[This two handed Blow gun is infused with a potent arcane enchantment, which, once loaded with the desired ammunition, extracts an arcane essence out of the user's aura, before converting it into a bolt of energy to be fired at the target.]]></description>
 		<attackDescriptor>fire</attackDescriptor>
@@ -25,6 +25,7 @@
 			<damageType>ICE</damageType>
 			<damageType>FIRE</damageType>
 			<damageType>POISON</damageType>
+			<damageType>LUST</damageType>
 		</availableDamageTypes>
 		
 		<spells/>
