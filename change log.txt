@@ -3,7 +3,7 @@
   Bo Staff can now be found in Vicky's shop inventory.
   Redesigned Sake item.
   Reduced files sizes of SVGs
-  Replaced "Bags of Dried food". with "Food Box"(old item is still in the game you should proably delete any traces in your safe file should this item ever get removed)
+  Removed "Bags of Dried food" from Ralph's shop and will no longer spawn from Raccoon Dogs, replaced it with "Food Box"(You can spawn still spawn the item from the "buggy" menu and use it normally, but you should proably delete any traces in your safe file should this item ever get removed)
   Reworked subspecies generation and requirements.
   Some grammer corrected.
 
