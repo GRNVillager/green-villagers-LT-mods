@@ -1,9 +1,12 @@
+1/08/2022
+Slave prices for Tanuki (170000->10000) and Tanuki Yokai (250000->25000) morphs where incorectly priced too high. Now it should be resaonably priced.
+
 4/15/2021
   Blow Gun can now use the LUST damgage type.
   Bo Staff can now be found in Vicky's shop inventory.
   Redesigned Sake item.
   Reduced files sizes of SVGs
-  Removed "Bags of Dried food" from Ralph's shop and will no longer spawn from Raccoon Dogs, replaced it with "Food Box"(You can spawn still spawn the item from the "buggy" menu and use it normally, but you should proably delete any traces in your safe file should this item ever get removed)
+  Removed "Bags of Dried food" from Ralph's shop and will no longer spawn from Raccoon Dogs, replaced it with "Food Box"(You can spawn still spawn the item from the "buggy" menu  and use it normally, but you should proably delete any traces in your safe file should this item ever get removed)
   Reworked subspecies generation and requirements.
   Some grammer corrected.
 
