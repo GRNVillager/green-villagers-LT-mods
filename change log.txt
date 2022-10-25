@@ -1,3 +1,6 @@
+10/25/2022
+Baked onigiri wasn't properly refernced in tanukiyokai.xml
+
 1/08/2022
 Slave prices for Tanuki (170000->10000) and Tanuki Yokai (250000->25000) morphs where incorectly priced too high. Now it should be resaonably priced.
 
